@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(45, 211, 111);
+    height: 100vh;
+    margin: 0;
+}
+form{
+    width: 300px;
+}
+input{
+    border: none;
+}
+
+button {
+    margin-bottom: 10px;
+}
