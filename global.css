@@ -3,6 +3,14 @@ body{
     margin: 0;
 }
 
+header {
+    text-align: right;
+}
+
+header button {
+    width: auto;
+}
+
 .centralize {
     display: flex;
     justify-content: center;
@@ -13,9 +21,14 @@ body{
     margin-bottom: 10px;
 }
 
-input, button {
+input,
+button,
+select {
     padding: 10px;
     width: -webkit-fill-available;
+}
+input[type="radio"] {
+    width: auto;
 }
 
 .loading {
@@ -23,6 +36,7 @@ input, button {
     position: fixed;
     width: 100%;
     height: 100%;
+    top: 0;
 }
 
 .loading label {
